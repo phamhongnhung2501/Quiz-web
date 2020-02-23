@@ -1,0 +1,15 @@
+.page-numbers > li {
+    cursor: pointer;
+}
+
+.page-numbers > li:not(.active):hover {
+    background: #5b7dff;
+    color: white;
+}
+
+.page-numbers > li.active {
+    border-color: grey;
+    color: white;
+    background: grey;
+    cursor: default;
+}
